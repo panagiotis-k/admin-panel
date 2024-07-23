@@ -67,7 +67,7 @@ const UserForm = ({ user, onSave }) => {
         <label htmlFor="email">Email</label>
         <input id="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" type="email" required />
         <label htmlFor="phone">Phone</label>
-        <input pattern="\+?\d+" id="phone" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" required />
+        <input id="phone" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" required />
         <label htmlFor="address">Address</label>
         <input id="address" name="address" value={formData.address} onChange={handleChange} placeholder="Address" />
         <label htmlFor="company">Company</label>
